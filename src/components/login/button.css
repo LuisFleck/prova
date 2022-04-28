@@ -1,0 +1,33 @@
+.button {
+    display: flex;
+    margin: 0 auto;
+}
+.button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'Radio Canada', 'sans-serif';
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    background: #4a8bd6;
+    color: #2F2F2F;
+    min-width: 8rem;
+    padding: .8rem 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: 0.1s;
+    text-transform: uppercase;
+}
+
+.button:hover,
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #4a8bd6, 0 0 0 4px #36679e;
+
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: wait;
+}

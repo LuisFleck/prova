@@ -1,0 +1,33 @@
+.book{
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+
+.form {
+    text-align: center;
+}
+.form > p {
+    border: 1px solid #eee;
+    width: 570px;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 0.4rem;
+    background: rgba(167, 160, 160, 0.31);
+    transition: 0.2s;
+    
+}
+
+option {
+    text-align: center;
+}
+
+input:focus,
+.input:hover {
+    outline: none;
+    border-color: #4a8bd6;
+    background: white;
+    box-shadow: 0 0 0 3px #fea;
+}

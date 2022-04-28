@@ -1,0 +1,28 @@
+header {
+    background-image: url("/src/components/header/imagen/livros.jpg");
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+   
+    
+}
+
+header > nav {
+display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 6rem;
+}
+
+.navigation, .logo {
+    color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    font-family:'Radio Canada', 'sans-serif';
+    font-size: 1em;
+    color: aliceblue;
+}
